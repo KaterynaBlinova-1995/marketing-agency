@@ -34,11 +34,13 @@ img {
 .container {
   width: 1200px;
   margin: 0 auto;
+  padding: 0;
 }
 /* header */
 .header {
   border-bottom: 1px solid rgba(0, 0, 0, 0.2);
-  padding: 18px 120px 18px 120px;
+  padding-top: 18px;
+  padding-bottom: 18px;
 }
 
 .header-container {
@@ -86,4 +88,65 @@ img {
   line-height: 1.25;
   text-transform: capitalize;
   color: #fff;
+}
+/* brand section */
+.brand {
+  padding-top: 84px;
+  padding-bottom: 61px;
+}
+.container-brand {
+  display: flex;
+  justify-content: space-between;
+}
+.brand-box {
+  width: 518px;
+}
+.brand-title {
+  font-weight: 600;
+  font-size: 96px;
+  line-height: 1.02604;
+  letter-spacing: -0.04em;
+  text-transform: capitalize;
+  color: #000;
+  padding-top: 135px;
+  margin-bottom: 28px;
+}
+.brand-paragraph {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.6;
+  color: rgba(0, 0, 0, 0.6);
+  margin-bottom: 44px;
+}
+
+.input-brand {
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  border-radius: 37px;
+  width: 339px;
+  height: 64px;
+  background-color: #fafafa;
+  outline: none;
+  margin-right: 12px;
+}
+.input-brand::placeholder {
+  font-weight: 500;
+  font-size: 18px;
+  text-transform: capitalize;
+  color: #aaa;
+  padding-left: 18px;
+}
+.brand-btn {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 1.11;
+  text-transform: capitalize;
+  text-align: center;
+  color: #fff;
+  border-radius: 70px;
+  min-width: 146px;
+  height: 64px;
+  background-color: #3461ff;
+  border: none;
+}
+.brand-image {
 }
